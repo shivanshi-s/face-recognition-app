@@ -126,3 +126,20 @@ body {
    justify-content: center;
    align-items: center;
 }
+.back {
+   display: flex;
+   justify-content: center;
+   text-align:center;
+}
+.back button {
+   margin: 1rem auto;
+   display: block;
+   padding: 0.2rem 10rem;
+   background-color: var(--secondary);
+   font-family: 'Poppins', sans-serif;
+   border-radius: 1rem;
+   font-weight: 300;
+   letter-spacing: 0.1rem;
+   cursor: pointer;
+   border: none;
+}
