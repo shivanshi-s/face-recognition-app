@@ -67,3 +67,62 @@ body {
 }
 
 /* the second index html file  */
+.main {
+   margin: 2rem;
+   font-family: 'Josefin Sans';
+   display: flex;
+   justify-content: space-evenly;
+}
+.first {
+   font-size: 5rem;
+   color: var(--alt);
+   line-height: 7rem;
+}
+.second {
+   line-break: strict;
+   font-size: 6rem;
+   color: var(--primary);
+}
+.image-holder img{
+    margin: 1rem;
+    width: 50vw;
+    height: 60vh;
+}
+.tag-line {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Poppins', sans-serif;
+   font-size: 2rem;
+   font-weight: 100;
+   letter-spacing: 0.2rem;
+   color: rgb(74, 74, 74);
+   margin-top: 0.2rem;
+}
+.form-btn {
+   margin: 1rem auto;
+   display: block;
+   padding: 1rem 5rem;
+   background-color: var(--secondary);
+   font-family: 'Poppins', sans-serif;
+   border-radius: 1rem;
+   font-weight: 600;
+   letter-spacing: 0.1rem;
+   cursor: pointer;
+}
+
+/* form html */
+#title {
+   margin-top: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Josefin Sans',sans-serif;
+   font-size: 3rem;
+   letter-spacing: 0.5rem;
+}
+.form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
